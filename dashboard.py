@@ -7,7 +7,7 @@ from datetime import datetime
 from models_logic import predict_temperatures
 
 def main():
-    st.title('🌡️ Weather prediction app ☀️')
+    st.title('🌡️ Weather Forecast App ☀️')
 
     year = st.number_input('Year:', min_value=2024, max_value=2025)
     month = st.number_input('Month:', min_value=1, max_value=12)
